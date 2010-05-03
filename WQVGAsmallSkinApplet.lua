@@ -1473,8 +1473,8 @@ function skin(self, s)
 		text = {
 			line = {
 				{
-					font = _boldfont(18),
-					height = 18,
+					font = _boldfont(30),
+					height = 32,
 				},
 				{
 					font = _font(14),
