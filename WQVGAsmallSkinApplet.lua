@@ -2045,11 +2045,11 @@ function skin(self, s)
 
 		},
 		menu = {
-			h = CM_MENU_HEIGHT * 4,
+			h = CM_MENU_HEIGHT * 8,
 			border = { 7, 0, 7, 0 },
 			padding = { 0, 0, 0, 100 },
 			scrollbar = { 
-				h = CM_MENU_HEIGHT * 4,
+				h = CM_MENU_HEIGHT * 8,
 			},
 			item = {
 				h = CM_MENU_HEIGHT,
