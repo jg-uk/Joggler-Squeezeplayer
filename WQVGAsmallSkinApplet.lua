@@ -659,8 +659,8 @@ function skin(self, s)
 
 	local TITLE_HEIGHT = 65
 	local TITLE_FONT_SIZE = 20
-	local ALBUMMENU_FONT_SIZE = 18
-	local ALBUMMENU_SMALL_FONT_SIZE = 14
+	local ALBUMMENU_FONT_SIZE = 25
+	local ALBUMMENU_SMALL_FONT_SIZE = 18
 	local TEXTMENU_FONT_SIZE = 25
 	local POPUP_TEXT_SIZE_1 = 34
 	local POPUP_TEXT_SIZE_2 = 26
@@ -1653,7 +1653,7 @@ function skin(self, s)
 					line = {
 						{
 							font = _boldfont(ALBUMMENU_FONT_SIZE),
-							height = 22,
+							height = 25,
 						},
 						{
 							font = _font(ALBUMMENU_SMALL_FONT_SIZE),
@@ -3016,16 +3016,16 @@ function skin(self, s)
 			elapsedSmall = {
 				w = 70,
 				align = 'left',
-				padding = { 0, 0, 4, 10 },
-				font = _boldfont(9),
+				padding = { 0, 0, 4, 20 },
+				font = _boldfont(18),
 				fg = { 0xe7,0xe7, 0xe7 },
 				sh = { 0x37, 0x37, 0x37 },
 			},
 			remainSmall = {
 				w = 70,
 				align = 'right',
-				padding = { 4, 0, 0, 10 },
-				font = _boldfont(9),
+				padding = { 4, 0, 0, 20 },
+				font = _boldfont(18),
 				fg = { 0xe7,0xe7, 0xe7 },
 				sh = { 0x37, 0x37, 0x37 },
 			},
