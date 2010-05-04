@@ -87,7 +87,7 @@ function param(self)
 		THUMB_SIZE = 40,
 		NOWPLAYING_MENU = false,
 		-- NOWPLAYING_TRACKINFO_LINES used in assisting scroll behavior animation on NP
-		-- 3 is for a three line track, artist, and album (e.g., SBtouch)
+		-- 3 is for a three line track, artist, and g (e.g., SBtouch)
 		-- 2 is for a two line track, artist+album (e.g., SBradio, SBcontroller)
 		NOWPLAYING_TRACKINFO_LINES = 3,
 		POPUP_THUMB_SIZE = 300,
@@ -659,8 +659,8 @@ function skin(self, s)
 
 	local TITLE_HEIGHT = 65
 	local TITLE_FONT_SIZE = 20
-	local ALBUMMENU_FONT_SIZE = 18
-	local ALBUMMENU_SMALL_FONT_SIZE = 14
+	local ALBUMMENU_FONT_SIZE = 25
+	local ALBUMMENU_SMALL_FONT_SIZE = 18
 	local TEXTMENU_FONT_SIZE = 25
 	local POPUP_TEXT_SIZE_1 = 34
 	local POPUP_TEXT_SIZE_2 = 26
@@ -1112,7 +1112,7 @@ function skin(self, s)
 
 	-- keyboard
 	s.keyboard = {
-		w = WH_FILL,
+		w = 400,
 		h = WH_FILL,
 		border = { 8, 6, 8, 0 },
 		padding = { 2, 0, 2, 0 },
@@ -1653,7 +1653,7 @@ function skin(self, s)
 					line = {
 						{
 							font = _boldfont(ALBUMMENU_FONT_SIZE),
-							height = 22,
+							height = 25,
 						},
 						{
 							font = _font(ALBUMMENU_SMALL_FONT_SIZE),
