@@ -87,7 +87,7 @@ function param(self)
 		THUMB_SIZE = 40,
 		NOWPLAYING_MENU = false,
 		-- NOWPLAYING_TRACKINFO_LINES used in assisting scroll behavior animation on NP
-		-- 3 is for a three line track, artist, and g (e.g., SBtouch)
+		-- 3 is for a three line track, artist, and album (e.g., SBtouch)
 		-- 2 is for a two line track, artist+album (e.g., SBradio, SBcontroller)
 		NOWPLAYING_TRACKINFO_LINES = 3,
 		POPUP_THUMB_SIZE = 300,
@@ -1112,7 +1112,7 @@ function skin(self, s)
 
 	-- keyboard
 	s.keyboard = {
-		w = 400,
+		w = WH_FILL,
 		h = WH_FILL,
 		border = { 8, 6, 8, 0 },
 		padding = { 2, 0, 2, 0 },
