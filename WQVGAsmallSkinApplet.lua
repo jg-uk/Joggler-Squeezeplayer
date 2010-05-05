@@ -3044,12 +3044,12 @@ function skin(self, s)
 		npprogressNB = {
 			order = { "elapsed" },
 			position = LAYOUT_NONE,
-			x = 202,
-			y = TITLE_HEIGHT + 29 + 26 + 32 + 32 + 50,
+			x = 322,
+			y = TITLE_HEIGHT + 29 + 26 + 32 + 32 + 23 + 100,
 			elapsed = {
 				w = WH_FILL,
 				align = "left",
-				font = _boldfont(12),
+				font = _boldfont(18),
 				fg = { 0xe7, 0xe7, 0xe7 },
 				sh = { 0x37, 0x37, 0x37 },
 			},
