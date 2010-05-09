@@ -90,7 +90,7 @@ function param(self)
 		-- 3 is for a three line track, artist, and album (e.g., SBtouch)
 		-- 2 is for a two line track, artist+album (e.g., SBradio, SBcontroller)
 		NOWPLAYING_TRACKINFO_LINES = 3,
-		POPUP_THUMB_SIZE = 300,
+		POPUP_THUMB_SIZE = 100,
 		radialClock = {
 			hourTickPath     = 'applets/WQVGAsmallSkin/images/Clocks/Radial/radial_ticks_hr_on.png',
 			minuteTickPath   = 'applets/WQVGAsmallSkin/images/Clocks/Radial/radial_ticks_min_on.png',
@@ -3357,8 +3357,8 @@ function skin(self, s)
 			position = LAYOUT_NONE,
 			x = 0,
 			y = TITLE_HEIGHT + 38,
-			w = 480,
-			h = 272 - (TITLE_HEIGHT + 38 + 38),
+			w = 672,
+			h = 272,
 			border = { 0, 0, 0, 0 },
 			padding = { 0, 0, 0, 0 },
 
@@ -3366,8 +3366,8 @@ function skin(self, s)
 				position = LAYOUT_NONE,
 				x = 0,
 				y = TITLE_HEIGHT + 38,
-				w = 480,
-				h = 272 - (TITLE_HEIGHT + 38 + 38),
+				w = 672,
+				h = 272,
 				border = { 0, 0, 0, 0 },
 				padding = { 0, 0, 0, 0 },
 				bgImg = _loadImage(self, "UNOFFICIAL/VUMeter/vu_analog_25seq_b.png"),
