@@ -3131,14 +3131,14 @@ function skin(self, s)
 		npartistgroup    = { hidden = 1 },
 		npalbumgroup     = { hidden = 1 },
 		npartwork = {
-			w = 480,
+			w = 600,
 			position = LAYOUT_CENTER,
 			align = "center",
-			h = 272,
+			h = 500,
 			border = 0,
 			padding = 5,
 			artwork = {
-				w = 480,
+				w = 600,
 				border = 0,
 				padding = 0,
 				img = false,
@@ -3175,8 +3175,8 @@ function skin(self, s)
 
 		npprogress = {
 			x = 10,
-			y = 200,
-			w = screenWidth - 150,
+			y = 325,
+			w = screenWidth - 100,
 			elapsed = {
 				w = 50,
 			},
@@ -3202,7 +3202,7 @@ function skin(self, s)
 		},
 		npprogressNB = {
 			x = 10,
-			y = 200,
+			y = 325,
 			padding = { 0, 0, 0, 5 },
 		},
 	})
@@ -3238,10 +3238,10 @@ function skin(self, s)
 			position = LAYOUT_NONE,
 			x = 80,
 			y = 0,
-			w = screenWidth - 160,
+			w = screenWidth - 100,
 			h = TITLE_HEIGHT,
 			border = { 0, 0 ,0, 0 },
-			padding = { 20, 14, 5, 5 },
+			padding = { 20, 17, 5, 5 },
 			nptrack = {
 				align = "center",
 			},
@@ -3307,10 +3307,10 @@ function skin(self, s)
 		npvisu = {
 			hidden = 0,
 			position = LAYOUT_NONE,
-			x = 0,
-			y = 2 * TITLE_HEIGHT + 4,
-			w = 480,
-			h = 272 - (2 * TITLE_HEIGHT + 4 + 45),
+			x = 40,
+			y = 175,
+			w = 690,
+			h = 400 - (2 * TITLE_HEIGHT + 4 + 45),
 			border = { 0, 0, 0, 0 },
 			padding = { 0, 0, 0, 0 },
 
@@ -3318,8 +3318,8 @@ function skin(self, s)
 				position = LAYOUT_NONE,
 				x = 0,
 				y = 2 * TITLE_HEIGHT + 4,
-				w = 480,
-				h = 272 - (2 * TITLE_HEIGHT + 4 + 45),
+				w = 690,
+				h = 400 - (2 * TITLE_HEIGHT + 4 + 45),
 				border = { 0, 0, 0, 0 },
 				padding = { 0, 0, 0, 0 },
 
